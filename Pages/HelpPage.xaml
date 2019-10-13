@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BloodTrace.Pages.HelpPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Blood donation is an important necessity of life.  There is a high demand for blood donations to help patients of all ages." TextColor="#A5A7A8" FontSize="Medium"/>
+            <Label TextColor="#A5A7A8" Margin="0,40,0,0" FontSize="Medium" Text="If you would like to donate blood, please contact our organization at this phone number: 800-Give Blood"/>
+            <Image HeightRequest="80" WidthRequest="80" Source="helpandsupport.png" Margin="0,50,0,0"></Image>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
